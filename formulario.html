@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <style>
+        body {
+            background-image:url(./laotrafoto.jpg);
+            background-size: cover;
+            padding: 0px 150px 0px 150px;
+        }
+        h1 {
+            color: rgb(3, 144, 187);
+            font-size: 40px;
+            text-align: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        p {
+            text-align: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        form {
+            background-color: white;
+            border-radius: 10px;
+        }
+        input {
+            font-size:15px ;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            width: 195px;
+            height: 25px;
+        }
+        h2 {
+            font-size: 25px;
+            color: rgb(3, 144, 187);
+            font-family: 'Times New Roman', Times, serif;
+        }
+        select {
+            border-radius: 10px;
+            border-color: rgb(3, 144, 187);
+            font-size: 15px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            width: 195px;
+            height: 25px;
+        }
+        button {
+            font-size: 25px;
+            height: 45px;
+            width: 180px;
+            background-color: rgb(3, 144, 187);
+            color: beige;
+            background-color: rgb(3, 144, 187);
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <h1>Datos personales</h1>
+        <p  style="font-size: 20px;" title="Solo es una prueba esto no es tan importante">En la medida de lo posible porfavor sea <strong>honesto</strong> a la hora de contestar a las siguentes preguntas y blah, blah, blah...</p>
+        <center style="height: 870px;">
+        <h2>Nombres Y Apellidos</h2>
+        <input type="text" required>
+        <br>
+        <h2>Número de Documento</h2>
+        <input type="number"required>
+        <br>
+        <h2>Correo Electrónico</h2>
+        <input type="email">
+        <br>
+        <h2>Imagen del Documento</h2>
+        <input type="file" required>
+        <br>
+        <h2>Ciudad de Residencia</h2>
+        <select required>
+            <option><placeholder>Seleccione</placeholder></option>
+        <option value="">Bogotá</option>
+        <option value="">Medellín</option>
+        <option value="">Cali</option>
+        <option value="">Barranquilla</option>
+        <option value="">Cartagena</option>
+        <option value="">Cúcuta</option>
+        <option value="">Soledad</option>
+        <option value="">Ibagué</option>
+        <option value="">Bucaramanga</option>
+        <option value="">Soacha</option>
+        <option value="">Pereira</option>
+        <option value="">Manizalez</option>
+        <option value="">Pasto</option>
+        <option value="">Montería</option>
+        <option value="">Santa Marta</option>
+        <option value="">otro</option>
+    </select>
+    <br>
+        <h2>Genero</h2>
+        Masculino
+        <input style="width: 20px;" type="radio">
+        <br>
+        Femenino
+        <input style="width: 20px;" type="radio">
+        <br>
+        Otro/a
+        <input style="width: 20px;" type="radio">
+        <h2>Número de Telefóno</h2>
+        <input type="number">
+        <br><hr><br><br>
+        <button>Registrarse</button>
+    </center>
+    </form>
+</body>
+</html>
